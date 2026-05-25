@@ -1,24 +1,55 @@
-### Tech Stack
+# Jihong Lee
 
-#### Programming language
-<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white"/> <img src="https://img.shields.io/badge/r-276DC3?style=for-the-badge&logo=R&logoColor=white"/>
-<img src="https://img.shields.io/badge/MATLAB-FF8800?style=for-the-badge&logo=data:image/png;base64,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&logoColor=white"/> 
-#### Framework & Library 
-<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/tensorflow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/> <img src="https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+Product AI / Applied ML Engineer working at the intersection of machine learning, product logic, backend services, and data-driven decision making.
 
-#### Tool
-<img src="https://img.shields.io/badge/tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white"/> 
-<!--
-**jihongleejihong/jihongleejihong** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- Based in Seoul, South Korea
+- Working at [BlueSignum Corp](https://bluesignum.com/).
+- Background in cognitive science, human visual perception research, and behavioral data analysis
+- Most production work happens in private company repositories, so this profile focuses on context rather than a full project archive
 
-Here are some ideas to get you started:
+## What I Work On
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Product AI and applied ML: recommendation systems, NLP/LLM workflows, audio modeling, and health-data-based logic
+- Data and experimentation: A/B test validation, product dashboards, statistical reasoning, and behavioral data analysis
+- Backend and serving: Python services, REST APIs, FastAPI/Django, model-serving prototypes, Docker, and GCP
+
+## How I Work
+
+- I like turning ambiguous product questions into testable ML, data, or backend problems.
+- I value simple baselines, measurable iteration, and clear evaluation before adding complexity.
+- I care about production fit: APIs, maintainability, monitoring, dashboards, and how model behavior affects real users.
+
+For a fuller career summary, see my [resume](https://jihonglee.netlify.app/en).
+
+## Research Background
+
+Before moving into product AI engineering, I worked on human visual perception research at Yonsei University. That background still shapes how I approach modeling and product analytics: define the question clearly, design the comparison carefully, and interpret results with statistical discipline.
+
+My public repositories mostly come from earlier research, learning, and prototype work. My recent production work is primarily in private company repositories.
+
+## Tech Stack
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square)
+
+**Data, ML, and Apps**
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+
+## Links
+
+[Resume](https://jihonglee.netlify.app/en) · [LinkedIn](https://www.linkedin.com/in/jihongleejihong)
